@@ -1,14 +1,48 @@
-/* * {
-  box-sizing: border-box;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
-/* body {
-  min-height: 100vh;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.main{
+  background-image: url('/img/bg-img-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+  padding: 30px 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: white;
-} */
+  justify-content: space-between;
+}
+
+.header__nav-items{
+  display: flex;
+}
+
+.header__nav-item{
+  list-style: none;
+  margin-left: 40px;
+
+}
+
+.header__nav-item a{
+  text-decoration: none;
+  color: white;
+}
 
 .progress {
   width: 100%;
