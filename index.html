@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Work Anywhere</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="main container">
       <header class="header">
-        <h1>Aer</h1>
+        <h1><a href="#">Aer</a></h1>
         <nav class="header__nav">
           <ul class="header__nav-items">
             <li class="header__nav-item"><a href="#">Home</a></li>
@@ -18,7 +25,9 @@
             <li class="header__nav-item"><a href="#">About</a></li>
             <li class="header__nav-item"><a href="#">Locations</a></li>
             <li class="header__nav-item"><a href="#">Cart</a></li>
-            <li class="header__nav-item"><i></i></li>
+            <li class="header__nav-item">
+              <a href=""><i class="fas fa-search"></i></a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -33,10 +42,17 @@
           <p>Lorem, ipsum.</p>
         </div>
         <div class="home__header">
-          <h1 class="home__header-head">Work Anywhere</h1>
+          <h1 class="home__header-head">
+            Work <br />
+            Anywhere
+          </h1>
           <p class="home__header-text">
-            Introducting the work Collection, a line of minimalist bags designed
-            for a newgeneration specifically for the modern professional
+            Introducting the work Collection, a line of minimalist <br />
+            bags designed for a
+            <u>
+              new generation specifically for <br />
+              the modern professional</u
+            >
           </p>
         </div>
       </section>
@@ -44,26 +60,26 @@
         <div class="events">
           <h3 class="events__title">events</h3>
           <p>Pop-up @ Street Alan Brooklyn</p>
-          <p>NYC-Sat, august 12/5 - PM</p>
+          <p class="white">NYC-Sat, august 12/5 - PM</p>
           <section class="carousel-dots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <div class="dot dot_active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
           </section>
         </div>
         <div class="news__address">
           <p>Pop-up @ Street Alan Brooklyn</p>
-          <p>NYC-Sat, august 12/5 - PM</p>
+          <p class="white">NYC-Sat, august 12/5 - PM</p>
         </div>
         <div class="news__card">
-          <img class="news__card-img" src="" alt="" />
+          <img class="news__card-img" src="/img/img-2.jpg" alt="" />
           <div class="news__card-body">
             <h3 class="news__card-title">news</h3>
             <p class="news__card-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium iusto in blanditiis exercitationem corrupti optio!
             </p>
-            <a class="news__card-link" href="#">Read More</a>
+            <a href="#"> <p class="news__card-link">Read More</p></a>
           </div>
         </div>
       </section>
